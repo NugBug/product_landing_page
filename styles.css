@@ -81,7 +81,7 @@ header a.active {
    width: 60vw;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px) and (min-width: 300px) {
    .logo-container {
       justify-content: left;
       width: 30vw;
@@ -92,9 +92,29 @@ header a.active {
    }
 }
 
-@media (max-height: 600px) {
-   .logo {
+@media (max-width: 299px) and (min-width: 1px) {
+   #logo-img {
       display: none;
+   }
+   .logo-container {
+      width: 0;
+   }
+   header {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+   }
+}
+
+@media (max-height: 500px) {
+   .logo-container {
+      justify-content: left;
+      width: 60vw;
+   }
+   #logo-img {
+      height: 25px;
+      width: 42px;
    }
 }
 
