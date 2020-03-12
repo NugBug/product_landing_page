@@ -113,7 +113,16 @@ html, body {
    align-items: center;
    justify-content: start;
    height: 180px;
-   padding-bottom: 50px;
+}
+
+@media (max-width: 600px) {
+   #form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+      height: 220px;
+   }
 }
 
 #form h1 {
