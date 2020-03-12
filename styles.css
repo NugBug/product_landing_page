@@ -161,10 +161,30 @@ html, body {
 }
 #about {
    display: flex;
-   flex-direction: row;
+   flex-direction: column;
    justify-content: center;
    padding: 15px 15px 75px 15px;
 }
+
+.about-bullet {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding: 0px 25px 25px 25px;
+   font-family: 'Fredericka the Great', cursive;
+   font-size: large;
+}
+.paintbrush {
+   height: 35px;
+   padding-right: 15px;
+}
+
+#video {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
 .container {
    display: flex;
    flex-direction: row;
