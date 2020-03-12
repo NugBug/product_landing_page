@@ -140,6 +140,7 @@ h1 {
 }
    
 #subscribe-button:hover {
+   cursor: pointer;
    text-shadow: 0 0 2em rgb(80, 80, 80);
    color:#FFFFFF;
    border-color:rgb(155, 155, 155);
@@ -287,6 +288,7 @@ h1 {
 }
 
 .art-tile {
+   cursor: pointer;
    transition: all 0.3s linear;
    position: relative;
    padding: 10px;
