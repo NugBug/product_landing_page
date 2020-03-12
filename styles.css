@@ -38,7 +38,7 @@ header {
 
 #logo-img {
    height: 60px;
-   width: 65px;
+   width: 60px;
 }
 
 header nav a {
@@ -327,7 +327,7 @@ h1 {
    }
    #logo-img {
       height: 30px;
-      width: 50px;
+      width: 30px;
    }
    .about-list li {
       padding: 25px 10px 25px 35px;
@@ -368,7 +368,7 @@ h1 {
    }
    #logo-img {
       height: 25px;
-      width: 42px;
+      width: 25px;
    }
    .sticky {
       position: relative;
