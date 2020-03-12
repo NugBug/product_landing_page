@@ -81,46 +81,6 @@ header a.active {
    width: 60vw;
 }
 
-@media (max-width: 500px) and (min-width: 300px) {
-   .logo-container {
-      justify-content: left;
-      width: 30vw;
-   }
-   #logo-img {
-      height: 30px;
-      width: 50px;
-   }
-}
-
-@media (max-width: 299px) and (min-width: 1px) {
-   #logo-img {
-      display: none;
-   }
-   .logo-container {
-      width: 0;
-   }
-   header {
-      display: flex;
-      justify-content: center;
-      flex-direction: row;
-      align-items: center;
-   }
-}
-
-@media (max-height: 500px) {
-   .logo-container {
-      justify-content: left;
-      width: 60vw;
-   }
-   #logo-img {
-      height: 25px;
-      width: 42px;
-   }
-   .sticky {
-      position: relative;
-   }
-}
-
 footer {
    padding-top: 15px;
 }
@@ -291,4 +251,55 @@ form h1 {
    z-index: 100;
 }
 
+@media (max-width: 500px) and (min-width: 300px) {
+   .logo-container {
+      justify-content: left;
+      width: 30vw;
+   }
+   #logo-img {
+      height: 30px;
+      width: 50px;
+   }
+   .about-list li {
+      padding: 25px 10px 25px 35px;
+      font-family: 'Fredericka the Great', cursive;
+      font-size: medium;
+   }
+   .video-text {
+      font-family: 'Fredericka the Great', cursive;
+      text-align: center;
+      font-size: large;
+      background-color: #dfdbdb;
+      margin: 0px 25px 0px 25px;
+      padding: 25px 25px;
+   }
+}
 
+@media (max-width: 299px) and (min-width: 1px) {
+   #logo-img {
+      display: none;
+   }
+   .logo-container {
+      width: 0;
+   }
+   header {
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      align-items: center;
+   }
+}
+
+@media (max-height: 500px) {
+   .logo-container {
+      justify-content: left;
+      width: 60vw;
+   }
+   #logo-img {
+      height: 25px;
+      width: 42px;
+   }
+   .sticky {
+      position: relative;
+   }
+}
