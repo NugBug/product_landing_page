@@ -3,6 +3,7 @@ html, body {
    margin: 0;
    background-color: #eeebeb;
    scroll-behavior: smooth;
+   overflow-x: hidden;
 }
 
 .main-container {
