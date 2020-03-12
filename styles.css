@@ -13,14 +13,13 @@ html, body {
 
 #header, #footer {
    background-color: #dfdbdb;
-   padding: 15px 5px;
+   padding: 5px;
    margin: 0;
 }
 
 #header a, #footer a {
    color: black;
    text-align: center;
-   padding: 12px;
    text-decoration: none;
    font-size: 18px;
    line-height: 25px;
@@ -34,6 +33,10 @@ html, body {
 
 #header nav a {
    font-family: 'Fredericka the Great', cursive;
+}
+
+.nav-link {
+   padding: 12px;
 }
 
 .nav-link:hover {
@@ -60,7 +63,7 @@ html, body {
    display: flex;
    flex-direction: row;
    justify-content: left;
-   width: 60vw
+   width: 60vw;
 }
 
 @media (max-width: 600px) {
@@ -89,7 +92,7 @@ html, body {
 
 .content {
    padding-bottom: 50px;
-   padding-top: 200px;
+   padding-top: 15vh;
    background-color: #eeebeb;
 }
 
