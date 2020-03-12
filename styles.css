@@ -116,6 +116,9 @@ header a.active {
       height: 25px;
       width: 42px;
    }
+   .sticky {
+      position: relative;
+   }
 }
 
 footer {
