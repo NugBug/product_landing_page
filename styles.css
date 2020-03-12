@@ -4,7 +4,7 @@ html, body {
    background-color: #eeebeb;
 }
 
-header, footer {
+#header, #footer {
    overflow: hidden;
    background-color: #dfdbdb;
    padding: 20px 5px;
@@ -61,19 +61,23 @@ header, footer {
    align-items: center;
 }
 
+#form h1 {
+   font-family: 'Fredericka the Great', cursive;
+}
+
 .form-item {
    text-align: center;
    min-width: 300px;
 }
 
-footer {
+#footer {
    position: absolute;
    bottom: 0;
    width: 100%;
 }
 
  /* Style the header links */
-header a, footer a {
+#header a, #footer a {
    float: left;
    color: black;
    text-align: center;
@@ -89,6 +93,10 @@ header a, footer a {
    width: 150px;
 }
 
+#header nav a {
+   font-family: 'Fredericka the Great', cursive;
+}
+
 /* Change the background color on mouse-over */
 .nav-link:hover {
    background-color: rgb(138, 136, 136);
@@ -96,7 +104,7 @@ header a, footer a {
 }
 
 /* Style the active/current link*/
-header a.active {
+#header a.active {
    background-color: dodgerblue;
    color: white;
 }
@@ -105,3 +113,28 @@ header a.active {
 .header-right, .footer-right {
    float: right;
 }
+
+#subscribe-button {
+   display:inline-block;
+   font-family: 'Fredericka the Great', cursive;
+   padding:0.46em 1.6em;
+   border:0.1em solid #000000;
+   margin:0 0.2em 0.2em 0;
+   border-radius:2em;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-weight:300;
+   color:#000000;
+   text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+   background-color:rgb(145, 145, 145);
+   text-align:center;
+   transition: all 0.15s;
+}
+   
+#subscribe-button:hover {
+   text-shadow: 0 0 2em rgb(80, 80, 80);
+   color:#FFFFFF;
+   border-color:rgb(155, 155, 155);
+}
+
+
