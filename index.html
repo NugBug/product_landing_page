@@ -8,9 +8,9 @@
    <title>Lofrano Arts</title>
 </head>
 <body>
-   <div class="main-container">
+   <div id="home" class="main-container">
       <header id="header" class="sticky">
-         <a href="#default" class="logo"><img id="header-img" src="./assets/LofranoArtsLogo.png" /></a>
+         <a href="#home" class="logo"><img id="header-img" src="./assets/LofranoArtsLogo.png" /></a>
          <nav id="nav-bar" class="header-right">
             <a class="nav-link" href="#home">Home</a>
             <a class="nav-link" href="#art">Art</a>
@@ -18,27 +18,32 @@
          </nav>
       </header>
       <div class="content">
-         <form id="form">
+         <form id="form" action="https://www.freecodecamp.com/email-submit">
             <h1 class="form-item">San Francisco Contemporary Sketch Art</h1>
-            <input class="form-item" id="email" type="email" placeholder="Enter your email address" required/>
-            <button id="subscribe-button" class="form-item">Submit to Subscribe</button>
+            <input class="form-item" id="email" type="email" name="email" placeholder="Enter your email address" required/>
+            <input id="submit" class="form-item" value="Submit to subscribe!" type="submit" ></input>
          </form>
-         <div class="container">
-            <div class="zone"><img class="gallery-img" id="art" src="./assets/IMG_0544.PNG" /></div>
-            <div class="zone"><img class="gallery-img" id="art" src="./assets/IMG_0545.PNG" /></div>
-            <div class="zone"><img class="gallery-img" id="art" src="./assets/IMG_0546.PNG" /></div>
-            <div class="zone"><img class="gallery-img" id="art" src="./assets/IMG_0547.PNG" /></div>
+         <div id="about">
+            <iframe id="video" width="75%" height="315"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+         </div>
+         <div id="art" class="container">
+            <div class="zone"><img class="gallery-img" src="./assets/IMG_0544.PNG" /></div>
+            <div class="zone"><img class="gallery-img" src="./assets/IMG_0545.PNG" /></div>
+            <div class="zone"><img class="gallery-img" src="./assets/IMG_0546.PNG" /></div>
+            <div class="zone"><img class="gallery-img" src="./assets/IMG_0547.PNG" /></div>
          </div>
       </div>
-      <Footer id="footer">
+      <footer id="footer">
          <nav class="footer-right">
             <a class="nav-link" href="#privacy">Privacy</a>
             <a class="nav-link" href="#terms">Terms</a>
             <a class="nav-link" href="#contact">Contact</a>
             <p style="text-align: center;">Copyright 2020, Lofrano Arts</p>
          </nav>
-      </Footer>
+      </footer>
    </div> 
-   <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>  -->
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
 </body>
 </html>
