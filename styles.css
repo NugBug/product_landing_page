@@ -83,6 +83,12 @@ html, body {
    }
 }
 
+@media (max-height: 500px) {
+   .logo {
+      display: none;
+   }
+}
+
 .nav-bar {
    display: flex;
    justify-content: space-between;
