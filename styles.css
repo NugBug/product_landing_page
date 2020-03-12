@@ -251,6 +251,7 @@ form h1 {
    z-index: 100;
 }
 
+/* Adjust for narrow browswer window */
 @media (max-width: 500px) and (min-width: 300px) {
    .logo-container {
       justify-content: left;
@@ -275,6 +276,7 @@ form h1 {
    }
 }
 
+/* Adjust for display on mobile */
 @media (max-width: 299px) and (min-width: 1px) {
    #logo-img {
       display: none;
@@ -290,6 +292,7 @@ form h1 {
    }
 }
 
+/* Adjust for display on mobile landscape */
 @media (max-height: 500px) {
    .logo-container {
       justify-content: left;
