@@ -9,8 +9,8 @@
 </head>
 <body>
    <div id="home" class="main-container">
-      <header id="header" class="sticky">
-         <a href="#home" class="logo"><img id="header-img" src="./assets/LofranoArtsLogo.png" /></a>
+      <header class="sticky">
+         <a href="#home" class="logo-container"><img id="logo-img" src="./assets/LofranoArtsLogo.png" /></a>
          <nav id="nav-bar" class="header-right">
             <a class="nav-link" href="#home">Home</a>
             <a class="nav-link" href="#art">Art</a>
@@ -18,52 +18,60 @@
          </nav>
       </header>
       <div class="content">
-         <form id="form" action="https://www.freecodecamp.com/email-submit">
+         <form action="https://www.freecodecamp.com/email-submit">
             <h1 class="form-item">San Francisco Contemporary Sketch Art</h1>
             <input class="form-item" id="email" type="email" name="email" placeholder="Enter your email address" required/>
-            <input id="submit" class="form-item" value="Submit to subscribe!" type="submit" ></input>
+            <input id="subscribe-button" class="form-item" value="Submit to subscribe!" type="submit" ></input>
          </form>
-         <section id="about">
-            <div class="about-bullet"><img class="paintbrush" src="./assets/paintBrush.png" /><div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut porttitor leo a diam sollicitudin.</div>
-            </div>
-            <div class="about-bullet"><img class="paintbrush" src="./assets/paintBrush.png" /><div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut porttitor leo a diam sollicitudin.</div>
-            </div>
-            <div class="about-bullet"><img class="paintbrush" src="./assets/paintBrush.png" /><div class="about-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut porttitor leo a diam sollicitudin.</div>
-            </div>
-            <div id="video">
-               <iframe width="75%" height="400"
-               src="https://www.youtube.com/embed/tgbNymZ7vqY">
-               </iframe>
-            </div>
+         <section class="about-container">
+            <ul class="about-list">
+               <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut porttitor leo a diam sollicitudin.
+               </li>
+               <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut porttitor leo a diam sollicitudin.
+               </li>
+               <li>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut porttitor leo a diam sollicitudin.
+               </li>
+            </ul>
          </section>
-         <section id="art" class="container">
-            <div class="zone">
-               <img class="gallery-img" src="./assets/IMG_0544.PNG" />
+         <div class="video-wrapper">
+            <div class="video-container">
+               <iframe width="560" height="349" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-text">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+         </div>
+         <section class="art-container">
+            <div class="art-tile">
+               <img class="art-img" src="./assets/IMG_0544.PNG" />
                <div class="text-block">
                   <h4>Trolley</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                </div>
             </div>
-            <div class="zone">
-               <img class="gallery-img" src="./assets/IMG_0545.PNG" />
+            <div class="art-tile">
+               <img class="art-img" src="./assets/IMG_0545.PNG" />
                <div class="text-block">
                   <h4>Beach Chairs</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                </div>
             </div>
-            <div class="zone">
-               <img class="gallery-img" src="./assets/IMG_0546.PNG" />
+            <div class="art-tile">
+               <img class="art-img" src="./assets/IMG_0546.PNG" />
                <div class="text-block">
                   <h4>Sidewalk</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                </div>
             </div>
-            <div class="zone">
-               <img class="gallery-img" src="./assets/IMG_0547.PNG" />
+            <div class="art-tile">
+               <img class="art-img" src="./assets/IMG_0547.PNG" />
                <div class="text-block">
                   <h4>Pueblo</h4><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                </div>
             </div>
          </section>
       </div>
-      <footer id="footer">
+      <footer>
          <nav class="footer-right">
             <a class="nav-link" href="#privacy">Privacy</a>
             <a class="nav-link" href="#terms">Terms</a>
