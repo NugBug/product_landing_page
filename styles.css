@@ -99,7 +99,7 @@ form {
    padding-bottom: 20px;
 }
 
-form h1 {
+h1 {
    font-family: 'Fredericka the Great', cursive;
 }
 
@@ -142,6 +142,68 @@ form h1 {
    text-shadow: 0 0 2em rgb(80, 80, 80);
    color:#FFFFFF;
    border-color:rgb(155, 155, 155);
+}
+
+.profile-card {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   width: 100%;
+   margin: auto;
+   text-align: center;
+   background-color: #dfdbdb;
+}
+
+.profile-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   padding: 15px;
+}
+
+.profile-image {
+   padding: 10px;
+   min-width: 225px;
+   height: auto;
+}
+
+@media (max-width: 600px) {
+   .profile-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      width: 75%;
+      margin: auto;
+      text-align: center;
+      background-color: #dfdbdb;
+   }
+}
+
+.profile-image img {
+   width: auto;
+   height: 100%;
+}
+
+.title {
+   color: grey;
+   font-size: 18px;
+}
+
+.social-media {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   padding-bottom: 15px;
+}
+
+.profile-card a {
+   text-decoration: none;
+   font-size: 22px;
+   color: black;
 }
 
 .about-container {
@@ -214,6 +276,7 @@ form h1 {
    flex-direction: row;
    justify-content: space-evenly;
    flex-wrap: wrap;
+   padding: 25px;
 }
 
 .art-img {

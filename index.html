@@ -5,6 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="styles.css">
    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
    <title>Lofrano Arts</title>
 </head>
 <body>
@@ -18,12 +19,8 @@
          </nav>
       </header>
       <div class="content">
-         <form action="https://www.freecodecamp.com/email-submit">
-            <h1 class="form-item">San Francisco Contemporary Sketch Art</h1>
-            <input class="form-item" id="email" type="email" name="email" placeholder="Enter your email address" required/>
-            <input id="subscribe-button" class="form-item" value="Submit to subscribe!" type="submit" ></input>
-         </form>
-         <section id="about" class="about-container">
+         <h1 class="form-item">San Francisco Contemporary Sketch Art</h1>
+         <section class="about-container">
             <ul class="about-list">
                <li>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut porttitor leo a diam sollicitudin.
@@ -36,14 +33,6 @@
                </li>
             </ul>
          </section>
-         <div class="video-wrapper">
-            <div class="video-container">
-               <iframe width="560" height="349" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="video-text">
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            </div>
-         </div>
          <section id="art" class="art-container">
             <div class="art-tile">
                <img class="art-img" src="./assets/IMG_0544.PNG" />
@@ -70,6 +59,33 @@
                </div>
             </div>
          </section>
+         <div class="video-wrapper">
+            <div class="video-container">
+               <iframe width="560" height="349" src="https://www.youtube.com/embed/tgbNymZ7vqY" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="video-text">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </div>
+         </div>
+         <div id="about" class="profile-card">
+            <div class="profile-image">
+               <img src="./assets/Profile.png" alt="Jim" style="width:100%">
+            </div>
+            <div class="profile-container">
+               <h1>Jim Lofrano</h1>
+               <p class="title">CEO & Founder, Lofrano Arts</p>
+               <p>Lorem Ipsum Dolor Lorem Ipsum Dolorx</p>
+               <div class="social-media">
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+               </div>
+               <form action="https://www.freecodecamp.com/email-submit">
+                  <input class="form-item" id="email" type="email" name="email" placeholder="Enter your email address" required/>
+                  <input id="subscribe-button" class="form-item" value="Submit to subscribe!" type="submit" ></input>
+               </form>
+            </div>
+         </div>
       </div>
       <footer>
          <nav class="footer-right">
